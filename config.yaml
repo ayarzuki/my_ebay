@@ -12,7 +12,7 @@ parsers:
       disabled: false
 
 exporters:
-    - exporter_name: products
+    - exporter_name: products # Must be unique
       exporter_type: json
       collection: products
-      write_mode: pretty_array
+      write_mode: pretty_array # can be 'line', 'pretty', 'pretty_array'
